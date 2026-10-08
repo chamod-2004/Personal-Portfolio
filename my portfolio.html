@@ -4,31 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
-
-    
-    <header>
-        <h1>Chamod Denuwan</h1>
-        <p>Undergraduate Student | Programmer | Technology Enthusiast</p>
-
-        <nav>
-            <a href="#about">About</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#projects">Projects</a> |
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <div style="background-color: #d6cdcdbd; padding: 20px;">
 
     <hr>
-
-    
-    <section id="about">
+    <div class="profile">
+      <img src="profile.jpg.jpeg" alt="Profile Photo" class="profile-photo">
+      <h2>Chamod Denuwan</h2>
+      <h4>web developer | designer | problem solver </h4>
+    </div>
+    <div class="about-me">
         <h2>About Me</h2>
-
-        <img src="profile.jpg" alt="My Profile Photo" width="150">
-
         <p>
             I am an enthusiastic undergraduate student with a passion for
             technology, programming, and problem-solving. I am currently
@@ -36,12 +26,9 @@
             development. I enjoy learning new technologies and creating
             practical projects to improve my technical skills.
         </p>
-    </section>
-
+  </div>
     <hr>
-
-    
-    <section id="skills">
+    <div class="skills">
         <h2>My Skills</h2>
 
         <ul>
@@ -52,15 +39,15 @@
             <li>Git & GitHub</li>
             <li>Problem Solving</li>
         </ul>
-    </section>
+    </div>
 
     <hr>
 
     
-    <section id="projects">
+    <div class="projects">
         <h2>My Projects</h2>
 
-        <table border="1">
+        <table border="2">
             <tr>
                 <th>Project Name</th>
                 <th>Description</th>
@@ -94,12 +81,12 @@
                 <td>HTML, CSS</td>
             </tr>
         </table>
-    </section>
+    </div>
 
     <hr>
 
     
-    <section id="contact">
+    <div class="contact">
         <h2>Contact Me</h2>
 
         <form>
@@ -111,16 +98,17 @@
 
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
-
-            <input type="submit" value="Send Message">
+         <div class="submit-button">
+            <input type="submit" value="Submit">
+         </div>
         </form>
-    </section>
+    </div>
 
     <hr>
 
     
     <footer>
-        <p>&copy; 2026 Chamod Denuwan. All Rights Reserved.</p>
+        <p>Contact with me:</p>
 
         <p>
             <a href="https://github.com/" target="_blank">GitHub</a> |
